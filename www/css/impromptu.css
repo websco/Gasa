@@ -1,0 +1,9 @@
+/*-------------impromptu---------- */
+.jqiwarning .jqi{ background-color: #b0be96;}
+.jqifade{ position: absolute; background-color: #333333; }
+div.jqi{ position: absolute;background-color: #000;/*#d0dEb6*/ padding: 8px; width: 300px; text-align: left; }
+div.jqi .jqicontainer{ background-color: #a6a6a6; padding: 5px; color: #ffffff; font-weight: bold;font-size:14px; }
+div.jqi .jqimessage{ background-image:url(../images/panel/panel_05.gif);/*background-color: #000;*/  height:30px;}
+div.jqi .jqibuttons{ text-align: center; padding: 5px 0 0 0; }
+div.jqi button{ background-image:url(../images/registro/botones_12.gif);/*padding: 3px 10px 3px 10px;*/ margin: 0 10px;color:#fff;border:0; }
+/*-------------------------------- */

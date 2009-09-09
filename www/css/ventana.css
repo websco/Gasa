@@ -1,0 +1,333 @@
+/* Ventana Items */
+#windowItem
+{
+	position: absolute;
+	 
+	left: 200px;
+	top: 100px;
+	width: 400px;
+	height: 350px;
+	overflow: hidden;
+	/*display:none;*/
+	visibility:hidden;
+}
+#windowTopItem
+{
+	height: 30px;
+	overflow: 30px;
+	background-image: url(../images/ventana/window_top_end.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	cursor: move;
+}
+#windowTopContentItem
+{
+	margin-right: 13px;
+	background-image:url(../images/ventana/window_top_start.png);
+	background-position:left top;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+}
+#windowMinItem
+{
+	position: absolute;
+	right: 25px;
+	top: 10px;
+	cursor: pointer;
+}
+#windowMaxItem
+{
+	position: absolute;
+	right: 25px;
+	top: 10px;
+	cursor: pointer;
+	display: none;
+}
+#windowCloseItem
+{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+#windowBottomItem
+{
+	position: relative;
+	height: 320px;
+	background-image: url(../images/ventana/window_bottom_end.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	/*border: 1px solid red;*/
+}
+#windowBottomContentItem
+{
+	position: relative;
+	height: 320px;
+	background-image: url(../images/ventana/window_bottom_start.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	margin-right: 13px;
+	/*border: 1px solid blue;*/
+}
+#windowResizeItem
+{
+	position: absolute;
+	right: 3px;
+	bottom: 5px;
+	cursor: se-resize;
+}
+#windowContentItem
+{
+	position:absolute;
+	top: 30px;
+	left: 10px;
+	width: auto;
+	height: auto;
+	overflow: auto;
+	margin-right: 10px;
+	/*border: 1px solid #6caf00;*/
+	height: 300px;
+	width: 375px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #fff;
+}
+#windowContentItem *
+{
+	margin: 10px;
+}
+
+/* Ventana Normal */
+#window
+{
+	position: absolute;
+	 
+	left: 200px;
+	top: 100px;
+	width: 550px;
+	height: 350px;
+	overflow: hidden;
+	/*display:none;*/
+	visibility:hidden;
+}
+#windowTop
+{
+	height: 30px;
+	overflow: 30px;
+	background-image: url(../images/ventana/window_top_end.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	cursor: move;
+}
+#windowTopContent
+{
+	margin-right: 13px;
+	background-image:url(../images/ventana/window_top_start.png);
+	background-position:left top;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+}
+#windowMin
+{
+	position: absolute;
+	right: 25px;
+	top: 10px;
+	cursor: pointer;
+}
+#windowMax
+{
+	position: absolute;
+	right: 25px;
+	top: 10px;
+	cursor: pointer;
+	display: none;
+}
+#windowClose
+{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+#windowBottom
+{
+	position: relative;
+	height: 320px;
+	background-image: url(../images/ventana/window_bottom_end.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	/*border: 1px solid red;*/
+}
+#windowBottomContent
+{
+	position: relative;
+	height: 320px;
+	background-image: url(../images/ventana/window_bottom_start.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	margin-right: 13px;
+	/*border: 1px solid blue;*/
+}
+#windowResize
+{
+	position: absolute;
+	right: 3px;
+	bottom: 5px;
+	cursor: se-resize;
+}
+#windowContent
+{
+	position:absolute;
+	top: 30px;
+	left: 10px;
+	width: auto;
+	height: auto;
+	overflow: auto;
+	margin-right: 10px;
+	/*border: 1px solid #6caf00;*/
+	height: 300px;
+	width: 530px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #eeeeee;
+}
+#windowContent *
+{
+	margin: 10px;
+}
+/* ***** */
+
+
+/*   Ventana Fotos*/
+#windowFoto
+{
+	position: absolute;
+	 
+	left: 200px;
+	top: 100px;
+	width: 400px;
+	height: 350px;
+	overflow: hidden;
+	/*display:none;*/
+	visibility:hidden;
+}
+#windowFotoTop
+{
+	height: 30px;
+	overflow: 30px;
+	background-image: url(../images/ventana/window_top_end.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	cursor: move;
+}
+#windowTopFotoContent
+{
+	margin-right: 13px;
+	background-image:url(../images/ventana/window_top_start.png);
+	background-position:left top;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+}
+#windowFotoMin
+{
+	position: absolute;
+	right: 25px;
+	top: 10px;
+	cursor: pointer;
+}
+#windowFotoMax
+{
+	position: absolute;
+	right: 25px;
+	top: 10px;
+	cursor: pointer;
+	display: none;
+}
+#windowFotoClose
+{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+#windowFotoBottom
+{
+	position: relative;
+	height: 320px;
+	background-image: url(../images/ventana/window_bottom_end.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	/*border: 1px solid red;*/
+}
+#windowBottomFotoContent
+{
+	position: relative;
+	height: 320px;
+	background-image: url(../images/ventana/window_bottom_start.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	margin-right: 13px;
+	/*border: 1px solid blue;*/
+}
+#windowFotoResize
+{
+	position: absolute;
+	right: 3px;
+	bottom: 5px;
+	cursor: se-resize;
+}
+#windowFotoContent
+{
+	position:absolute;
+	top: 30px;
+	left: 10px;
+	width: auto;
+	height: auto;
+	overflow: auto;
+	margin-right: 10px;
+	/*border: 1px solid #6caf00;*/
+	height: 300px;
+	width: 370px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #fff;
+}
+#windowFotoContent *
+{
+	margin: 10px;
+}
+/**** ****/
+.ui-effects-transfer { 
+border: 1px solid #6BAF04; 
+background-color: #e6e6e6;
+	filter:alpha(opacity=30); 
+	-moz-opacity: 0.3; 
+	opacity: 0.3;
+}
